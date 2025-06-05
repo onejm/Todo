@@ -1,0 +1,56 @@
+.todo-create-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 32px;
+    background-color: #f2fff0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+.todo-create-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.todo-create-form input,
+.todo-create-form textarea,
+.todo-create-form select {
+    padding: 10px 14px;
+    border: 1px solid #cdebc0;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.todo-create-form input[type="date"] {
+    cursor: pointer;
+}
+
+.todo-create-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.todo-create-form button {
+    padding: 12px;
+    background-color: #a3e35f;
+    color: #1b3d0b;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.todo-create-form button:hover {
+    background-color: #8bd24e;
+}
+
+h2 {
+    text-align: center;
+    color: #2b4d21;
+    margin-bottom: 24px;
+}

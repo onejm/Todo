@@ -1,0 +1,68 @@
+.todo-detail-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 80px);
+    background-color: #f4fbe9;
+    padding: 40px 16px;
+}
+
+.todo-detail-card {
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.todo-detail-card h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #234e1e;
+}
+
+.info-box {
+    margin-bottom: 16px;
+    padding: 12px;
+    border: 1px solid #d9e8ce;
+    border-radius: 8px;
+    background-color: #f8fff4;
+}
+
+.info-box strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.info-box p,
+.info-box span {
+    font-size: 16px;
+    color: #222;
+    margin: 0;
+}
+
+.detail-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.detail-buttons button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit-btn,
+.back-btn {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}

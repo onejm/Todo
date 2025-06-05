@@ -1,0 +1,49 @@
+.todo-edit-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.todo-edit-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.todo-edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todo-edit-form input,
+.todo-edit-form textarea,
+.todo-edit-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-edit-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.todo-edit-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.todo-edit-form button:hover {
+    background-color: #45a049;
+}
